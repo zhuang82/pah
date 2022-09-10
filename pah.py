@@ -1,4 +1,4 @@
-#/usr/bin/python
+#!/usr/bin/env python
 import sys,os
 def aur(pkg_name):
     out_aur = os.popen(f"git clone https://aur.archlinux.org/{pkg_name}.git","r").read()
