@@ -1,4 +1,3 @@
 # pah
-A python aur helper
-
-👎*Project termination*
+A python aur helper  
+`pah ${pkgname}`
