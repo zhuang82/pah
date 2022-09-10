@@ -6,7 +6,7 @@ def aur(pkg_name):
         os.system(f"pacman -S {pkg_name}")
         os.system(f"links \"https://aur.archlinux.org/packages?O=0&SeB=nd&K={pkg_name}&outdated=&SB=p&SO=d&PP=50&submit=Go\"")
     else:
-        os.chroot("cd {pkg_name}")
+        os.chroot("{pkg_name}")
         input("Please edit PKGBUILD in ~/PAH directory or press enter to continue")
         with open("PKGBUILD","r") as pkgbuild:
             for i in pkgbuild.readlines():
