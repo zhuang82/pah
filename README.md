@@ -1,3 +1,4 @@
 # pah
 A python aur helper  
-`pah ${pkgname}`
+`pah ${pkgname}`  
+开发停止
